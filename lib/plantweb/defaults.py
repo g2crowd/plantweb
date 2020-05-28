@@ -40,7 +40,7 @@ log = logging.getLogger(__name__)
 
 DEFAULT_CONFIG = {
     'engine': 'plantuml',
-    'format': 'svg',
+    'format': 'png',
     'server': 'http://plantuml.com/plantuml/',
     'use_cache': True,
     'cache_dir': '~/.cache/plantweb'

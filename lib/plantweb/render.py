@@ -232,7 +232,7 @@ def render_file(infile, outfile=None, renderopts=None, cacheopts=None):
     # Determine destination file
     if outfile is None:
         outfile = '{}.{}'.format(
-            splitext(basename(infile))[0],
+            splitext(infile)[0],
             format
         )
 
